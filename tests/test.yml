@@ -1,0 +1,5 @@
+---
+- hosts: {{ elastickibana_vp_ip }}
+  remote_user: root
+  roles:
+    - elastic
