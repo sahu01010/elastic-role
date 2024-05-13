@@ -28,8 +28,5 @@
     state: started
     enabled: yes
 
-- name: Playbook to print "hi" on localhost
-  hosts: localhost
-  tasks:
-    - name: print hello
-      shell: echo "hi"
+- name: print hello
+  shell: echo "hi"
